@@ -1,0 +1,387 @@
+@media all and (min-width: 1400px){
+    .container{
+        width: 1280px; 
+    }
+}
+
+@media all and (max-width: 1400px){
+    .join_first_shape img {
+        width: 434px; 
+    }
+}
+
+@media all and (max-width: 1199px){
+    .menu ul li a { 
+        font-size: 14px; 
+    }
+    .token_fac_shape_1 img {
+        width: 313px; 
+        top: -184px;
+        left: 145px; 
+    }
+    .facilit_title h3 { 
+        font-size: 70px; 
+    }
+    .facilit_title img {
+        width: 309px; 
+        top: -146px;
+        right: 204px; 
+    }
+    .presale_shape_facility_2 img {
+        width: 655px; 
+    }
+    .presale_income_shape img {
+        width: 262px; 
+        bottom: -250px; 
+    }
+    .presale_shape_facility img {
+        width: 226px; 
+        top: -31px; 
+    }
+    .menu ul { 
+        gap: 18px; 
+    }
+    .menu { 
+        gap: 25px; 
+    }
+    .facility_text p { 
+        font-size: 18px; 
+        line-height: 142%; 
+    }
+    .facility_img img { 
+        height: 515px;
+    }
+    .farming_shape img {
+        width: 453px; 
+        top: -168px;
+        right: -53px;
+    }
+    .facility_child_box p { 
+        font-size: 16px; 
+    }
+    .join_first_shape img {
+        width: 365px; 
+    }
+    .join_second_shape img {
+        width: 341px;
+        bottom: -172px; 
+    }
+    .income_shape_1 img {
+        width: 367px; 
+        top: -208px;
+        right: 170px;
+    }
+    .income_left h3 { 
+        font-size: 36px;  
+    }
+    .income_left p { 
+        font-size: 16px; 
+    }
+    .btn_3 { 
+        font-size: 14px; 
+    }
+}
+
+@media all and (min-width: 991px){
+    .header_menu {
+        display: block !important;
+    }
+}
+
+@media all and (max-width: 991px){
+    .menu { 
+        flex-direction: column;
+    }
+    .presale_shape_facility_2 img {
+        width: 589px;
+    }
+    .facility_box.presale_box_facility {
+        margin-bottom: 82px;
+    }
+    .facilit_title img {
+        width: 201px;
+        top: -82px;
+        right: 134px; 
+    }
+    .join_right p { 
+        max-width: 100%;
+    }
+    .income_shape_1 img { 
+        right: 68px;
+    }
+    .income_left h3 { 
+        margin-bottom: 28px;
+    }
+    .join_first_shape img { 
+        top: -157px;  
+    }
+    .income_shape_2 img {
+        width: 284px; 
+        bottom: -237px;
+        left: 0;
+    }
+    
+    .join_row { 
+        flex-direction: column;
+    }
+    .last_footer .menu ul {
+        flex-direction: row-reverse;
+        flex-wrap: wrap; 
+        gap: 0px 24px;
+    }
+    .join_second_shape img {
+        width: 247px; 
+    }
+    .farming_shape img {
+        width: 261px; 
+    }
+    .join_first_shape img {
+        width: 225px;
+    }
+    .facility_box { 
+        margin-bottom: 256px;
+    }
+    .join_left h3 {
+        font-size: 100px;
+    }
+    .banner p { 
+        max-width: 100%; 
+    }
+    .mobile_bars{
+        display: block !important;
+    }
+    .menu ul {
+        gap: 0;
+        flex-direction: column;
+    }
+    .menu ul li a { 
+        padding: 7px 0; 
+    }
+    .header { 
+        position: relative;
+    }
+    .header_menu {
+        position: absolute;
+        top: 109px;
+        background: #000;
+        width: 100%;
+        left: 0;
+        z-index: 99999;
+        padding: 25px 0;
+        display: none; 
+    }
+    .menu ul li {
+        text-align: center;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 15px 0;
+    }
+    .mobile_bars i {
+        font-size: 31px;
+        color: #ffff;
+    }
+    .banner h2 { 
+        font-size: 45px; 
+    }
+    .banner p { 
+        font-size: 16px; 
+        line-height: 25px; 
+    }
+    .facility_img_area{
+        display: none;
+    }
+    .facility_mobile_img{
+        display: block;
+    }
+    .facility_area {
+        position: relative;
+        margin: 80px 0 50px 0;
+    }
+    .facility_text p {
+        font-size: 16px;
+        line-height: 142%;
+    }
+    .facility_text p {
+        font-size: 16px;
+        line-height: 142%;
+    }
+    .facility_text h4 {
+        font-size: 30px;
+        margin-bottom: 8px;
+        line-height: 35px;
+    }
+    .facility_text p { 
+        margin-bottom: 16px;
+    }
+    .facility_img img {
+        height: auto;
+    }
+}
+
+@media all and (max-width: 767px){
+    .banner { 
+        width: 100%; 
+    }
+    .banner.banner_presale p {
+        margin-bottom: 10px;
+    }
+    .presale_income_area {
+        margin: 0 0 230px 0; 
+    }
+
+    .facilit_title h3 {
+        font-size: 46px; 
+    }
+    .presale_shape_facility_2 img {
+        width: 521px;
+        bottom: -62%;
+    }
+    .presale_shape_facility img {
+        width: 209px;
+        top: 12px;
+    }
+    .income_shape_1 img {
+        right: 82px;
+        width: 200px;
+        top: -113px;
+    }
+    .income_shape_2 img {
+        width: 185px;
+        bottom: -149px; 
+    }
+    .income_right {
+        margin-top: 25px;
+    }
+    .join_first_shape img { 
+        display: none;
+    }
+    .join_right p { 
+        font-size: 16px; 
+        width: 100%;
+    }
+    .facility_box h3 { 
+        font-size: 65px; 
+    }
+    .join_second_shape img { 
+        display: none;
+    }
+    .last_footer .menu ul { 
+        justify-content: center;
+        margin-top: 25px;
+    }
+    .footer_last p { 
+        text-align: center;
+    }
+    .join_box h3 { 
+        font-size: 28px; 
+        line-height: 8px;
+        margin-bottom: 22px;
+    } 
+    .footer_row { 
+        flex-direction: column;
+    }
+    .foote_logo a { 
+        justify-content: center;
+    }
+    .footer_first p { 
+        line-height: 22px;
+        margin-top: 12px; 
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .footer_last h4, .footer_middle h4 {
+ 
+        font-size: 16px; 
+        margin-bottom: 8px;
+    }
+    .footer_middle ul li {
+        margin-bottom: 5px;
+    }
+    .footer_last,
+    .footer_middle { 
+        margin-top: 25px;
+        text-align: center;
+    }
+    .footer_last ul { 
+        justify-content: center;
+    }
+    .footer_copy_right p { 
+        font-size: 14px; 
+    } 
+    .btn_1 { 
+        font-size: 16px; 
+    }
+    .join_area {
+        padding: 0 0 100px 0;
+    }
+    .facility_box {
+        margin-bottom: 0;
+    }
+    .join_left h3 {
+        font-size: 61px;
+    }
+    .farming_shape img { 
+        display: none;
+    }
+    .join_right p { 
+        max-width: 100%;
+    }
+}
+
+@media all and (max-width: 575px){
+    .banner p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .facilit_title img {
+        width: 153px;
+        top: -62px; 
+        right: 70px;
+    } 
+    .presale_income_shape img {
+        width: 206px; 
+        bottom: -195px; 
+    }
+    .presale_shape_facility_2 img {
+        width: 411px; 
+    }
+    .presale_shape_facility img {
+        width: 125px;
+        top: 12px;
+    }
+    .facilit_title { 
+        margin-bottom: 43px;
+    }
+    .footer_first p { 
+        width: 100%;
+    }
+    .facility_child_box { 
+        padding: 30px; 
+    } 
+    .facility_area { 
+        margin: 0 0 50px 0;
+    }
+    .join_right p { 
+        font-size: 14px;
+    }
+    .income_box { 
+        padding: 25px; 
+    }
+}
+
+@media all and (max-width: 450px){
+    .facility_box h3 {
+        font-size: 49px;
+    }
+    .join_left h3 {
+        font-size: 54px;
+    }
+    .income_left h3 {
+        font-size: 31px;
+    }
+}

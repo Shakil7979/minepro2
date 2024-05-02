@@ -1,0 +1,700 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'Thunder';
+    src: url('../fonts/Thunder-SemiBoldLC.woff2') format('woff2'),
+        url('../fonts/Thunder-SemiBoldLC.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+/* 
+@font-face {
+    font-family: 'Thunder';
+    src: url('../fonts/Thunder-SemiBoldHC.woff2') format('woff2'),
+        url('../fonts/Thunder-SemiBoldHC.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+
+html{
+	font-size: 62.5%;
+	/* font-family: "Rethink Sans", sans-serif; */
+}
+body{	
+	font-size: 1.6rem; 
+	font-weight: 400;
+	background: #040409;
+	font-family: "Poppins", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li a,a{
+	text-decoration: none;
+}
+
+/*========= Farm Start Page  =======*/
+ 
+
+.logo a p {
+	color: var(--P5, #FFF);
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.logo a img {
+	width: 142px;
+}
+
+.menu ul li a {
+	color: #fff; 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal; 
+	display: inline-block;
+	transition: 0.3s; 
+}
+
+.menu ul li a:hover {
+	opacity: 0.83;
+}
+
+.menu ul {
+	display: flex;
+	gap: 32px;
+	justify-content: flex-end;
+}
+
+.menu {
+	display: flex;
+	gap: 52px;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header_row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_area {
+	background: transparent;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0; 
+	z-index: 9;
+	padding: 32px 0;
+}
+
+.mobile_bars{
+	display: none !important;
+}
+
+.logo a {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.banner_area {
+	padding: 225px 0 145px 0;
+	position: relative;
+}
+
+.banner_shape_1 img {
+	position: absolute;
+	top: 0; 
+	right: 0;
+	width: 3100px;
+	z-index: -3;
+}
+
+.banner_shape_2 img {
+	width: 917px;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	z-index: -2;
+}
+
+.banner { 
+	width: 70%;
+	margin: 0 auto;
+}
+
+.banner_presale {
+	width: 73%;
+}
+
+.banner_presale p {
+	margin-bottom: 25px;
+}
+
+.banner h2 { 
+	color: var(--P5, #FFF);
+	text-align: center;
+	font-family: 'Thunder';
+	font-size: 120px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.banner p {
+	color: var(--P5, #FFF);
+	text-align: center;
+	font-family: 'Poppins';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 32px;
+	letter-spacing: -0.36px; 
+	width: 100%;
+	margin: 0 auto;
+}
+
+.facility_area{
+	position: relative;
+}
+
+.facility_bg_shape img {
+	width: 1088px;
+	position: absolute;
+	bottom: -604px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+.facility_box {
+	background: #277ACA;
+	border-radius: 25px;
+	padding: 40px;
+	position: relative;
+	margin-bottom: 302px;
+}
+
+.farming_shape img {
+	width: 499px;
+	position: absolute;
+	top: -168px;
+	right: 0;
+}
+
+.facility_box h3 {
+	color: #FCFF8B;
+	font-family: Thunder;
+	font-size: 112px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 100%;
+	letter-spacing: 1.12px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.facility_child_box p {
+	color: var(--P5, #FFF);
+	font-family: "Rethink Sans";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+.facility_child_box p a {
+	color: #3788BE;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.facility_child_box {
+	background: #060A11;
+	border-radius: 25px;
+	padding: 73px 64px;
+	position: relative;
+	z-index: 9;
+}
+
+.facility_child_box p {
+	color: var(--P5, #FFF);
+	font-family: "Rethink Sans";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 28px;
+}
+ 
+.btn_1 {
+	border-radius: 48px;
+	border: 1.5px solid var(--Stroke-gradient, #277ACA);
+	background: #00152A;
+	padding: 14px 24px;
+	color: var(--P5, #FFF);
+	font-family: Poppins;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: -0.44px;
+	display: inline-block;
+	transition: 0.3s;
+}
+
+.btn_1:hover {
+	opacity: 0.83;
+	color: var(--P5, #FFF);
+}
+
+.facility_child_box img {
+	width: 100%;
+}
+
+.facility_child_box a {
+	margin-bottom: 66px;
+}
+
+.join_left h3 {
+	color: #FFF;
+	font-family: Thunder;
+	font-size: 153px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 90%;
+	text-transform: uppercase;
+}
+
+.join_left h3 span {
+	color: #FCFF8B;
+}
+
+.join_right p {
+	color: var(--P5, #FFF);
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+	letter-spacing: -0.36px;
+	opacity: 0.8;
+	margin-bottom: 40px;
+	max-width: 321px;
+}
+
+.join_row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.join_left {
+	flex: 0 0 58%;
+}
+ 
+.join_right {
+	flex: 0 0 40%;
+}
+
+.join_area {
+	position: relative; 
+	padding: 120px 0 185px 0;
+	z-index: 999;
+}
+
+.btn_2 {
+	border-radius: 40px;
+	background: #277ACA;
+	color: var(--P5, #FFF);
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: -0.32px;
+	text-transform: capitalize;
+	padding: 16px 20px;
+	transition: 0.3s
+}
+
+.btn_2:hover { 
+	color: var(--P5, #FFF);
+	opacity: 0.83;
+}
+
+.join_first_shape img {
+	width: 473px;
+	top: -276px;
+	position: absolute; 
+	right: 0;
+}
+
+.join_second_shape img {
+	width: 378px;
+	bottom: -215px;
+	position: absolute;
+	left: 0;
+	z-index: 9;
+}
+
+  
+
+.footer_row {
+	padding: 56px 0;
+	border-top: 1px solid #454545;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_first p {
+	color: #FCFAF9;
+	 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 12px;
+	width: 71%;
+}
+
+.footer_first {
+	flex: 0 0 40%;
+}
+
+.foote_logo a {
+	color: var(--P5, #FFF);
+	 
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal; 
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.foote_logo a img {
+	width: 36px;
+}
+ 
+
+.footer_middle ul li a {
+	color: var(--P5, #FFF);
+	 
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 22px;
+	transition: 0.3s;
+}
+
+.footer_middle ul li a:hover{
+	text-decoration: underline;
+}
+
+
+.footer_middle ul li{
+	margin-bottom: 16px;
+}
+
+.foote_logo {
+	margin-bottom: 49px;
+}
+
+.footer_last p {
+	color: var(--P5, #FFF);
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	letter-spacing: -0.28px;
+	text-align: right;
+}
+
+.foote_logo a img {
+	width: 143px;
+}
+ 
+
+.footer_last ul li a img {
+	width: 40px;
+	transition: 0.3s;
+}
+.footer_last ul li a:hover img {
+	opacity: 0.83;
+}
+
+.footer_last ul {
+	display: flex;
+	gap: 16px;
+	justify-content: flex-end;
+	margin: 49px 0 32px 0; 
+}
+
+.footer_middle {
+	flex: 0 0 15%;
+}
+ 
+
+.footer_copy_right p {
+	color: var(--P5, #FFF);
+	 
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	padding: 27px 0;
+}
+
+.footer_copy_right {
+	background: #252525;
+	text-align: center;
+}
+
+.footer_area {
+	position: relative;
+}
+ 
+
+/*======== Farm End Page  ==========*/
+
+/*======== Stacking Start Page  ==========*/
+
+.income_box {
+	background: #fff;
+	border-radius: 25px;
+	padding: 48px;
+	position: relative;
+	z-index: 9;
+} 
+
+.income_left h3 {
+	color: #040409;
+	font-family: Thunder;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 120%;
+	letter-spacing: 0.64px;
+	text-transform: uppercase;
+	margin-bottom: 103px;
+}
+
+.income_left p {
+	color: #000;
+	font-family: "Rethink Sans";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 52px;
+}
+
+.income_right img {
+	width: 100%;
+}
+
+.btn_3 {
+	border-radius: 40px;
+	background: rgba(39, 122, 202, 0.15);
+	padding: 20px 30px;
+	color: #277ACA;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 100%;
+	letter-spacing: -0.4px;
+	text-transform: capitalize;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.btn_3:hover {
+	opacity: 0.83;
+}
+
+.income_area {
+	margin: 100px 0 290px 0;
+	position: relative;
+}
+
+.income_shape_1 img {
+	width: 487px;
+	position: absolute;
+	top: 0;
+	right: 0px;
+}
+
+.income_shape_1 img {
+	width: 487px;
+	position: absolute;
+	top: -264px;
+	right: 322px;
+}
+
+.income_shape_2 img {
+	width: 390px;
+	position: absolute;
+	bottom: -317px;
+	left: 0;
+}
+
+/*======== Stacking End Page  ==========*/
+
+/*======== Presale Start Page  ==========*/
+
+.facilit_title h3 {
+	color: #FFF;
+	font-family: Thunder;
+	font-size: 112px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 90%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.facilit_title h3 span{
+	color: #FCFF8B; 
+}
+
+.facilit_title {
+	position: relative;
+	margin-bottom: 81px;
+}
+
+.facilit_title img {
+	width: 392px;
+	position: absolute;
+	top: -187px;
+	right: 192px;
+	z-index: -1;
+}
+
+.presale_shape_facility img {
+	width: 390px;
+	position: absolute;
+	top: -52px;
+	right: 0;
+}
+
+.presale_shape_facility_2 img {
+	width: 819px;
+	position: absolute;
+	left: 0;
+	bottom: -71%;
+	z-index: -1;
+}
+
+.presale_income_area {
+	margin: 0 0 384px 0;
+	position: relative;
+}
+
+.presale_box_facility {
+	margin-bottom: 73px;
+}
+
+.presale_income_shape img {
+	width: 386px;
+	position: absolute;
+	right: 0;
+	bottom: -340px;
+	z-index: 9;
+}
+
+.banner.banner_presale p {
+	margin-bottom: 20px;
+}
+
+/*======== Presale End Page  ==========*/
+
+
+/*======== Token Start Page  ==========*/
+
+.token_child_box {
+	border-radius: 32px;
+	background: #0A0824; 
+}
+
+.token_fac_box{
+	/* background: #FFF; */
+	background: url(../images/tokenomics/bg.png) no-repeat scroll center center / 100% 100%;
+	position: relative;
+}
+
+.facility_box.token_fac_box h3 {
+	color: #060712;
+	font-family: Thunder;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 100%;
+	letter-spacing: 0.64px;
+	text-transform: uppercase;
+	width: 64%;
+}
+
+.clip_token_box {
+	clip-path: polygon(0 0, 100% 0%, 100% 100%, 38% 100%);
+	width: 244px;
+	height: 61px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #161712;
+	display: inline-block;
+}
+
+.tokenomics_fac_area{
+	position: relative;
+}
+
+.token_fac_shape_1 img {
+	width: 370px;
+	position: absolute;
+	top: -221px;
+	left: 265px; 
+	z-index: -1;
+}
+
+.token_fac_shape_2 img {
+	width: 301px;
+	position: absolute;
+	top: -51px;
+	right: 0;
+	z-index: 9;
+}
+
+.token_fac_shape_3 img {
+	width: 334px;
+	position: absolute;
+	bottom: -311px;
+	left: 0;
+	z-index: 9;
+}
+
+/*======== Token End Page  ==========*/
+
+
+
+
