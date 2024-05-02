@@ -178,8 +178,7 @@ ul li a,a{
 	width: 1088px;
 	position: absolute;
 	bottom: -604px;
-	left: 0;
-	right: 0;
+	left: 0; 
 	margin: 0 auto;
 	z-index: -1;
 }
