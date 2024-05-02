@@ -7,12 +7,41 @@
 @media all and (max-width: 1400px){
     .join_first_shape img {
         width: 434px; 
+    } 
+    .facility_box h3 { 
+        font-size: 95px; 
+    }
+    .logic_fac_shape_1 img {
+        width: 497px; 
     }
 }
 
 @media all and (max-width: 1199px){
     .menu ul li a { 
         font-size: 14px; 
+    }
+    .logic_fac_shape_1 img {
+        width: 423px; 
+        top: -53px;
+        right: -26px; 
+    }
+    .token_fac_shape_2 img {
+        width: 190px; 
+        top: -1px; 
+    }
+    .logic_income_shape_1 img {
+        width: 239px; 
+        bottom: -183px; 
+    }
+    .income_left p { 
+        margin-bottom: 18px;
+    }
+    .logic_fac_title.facility_box h3 {
+        font-size: 81px;
+    }
+    .token_fac_shape_3 img {
+        width: 232px;
+        bottom: -219px; 
     }
     .token_fac_shape_1 img {
         width: 313px; 
@@ -60,7 +89,7 @@
         font-size: 16px; 
     }
     .join_first_shape img {
-        width: 365px; 
+        width: 323px;
     }
     .join_second_shape img {
         width: 341px;
@@ -91,6 +120,15 @@
 @media all and (max-width: 991px){
     .menu { 
         flex-direction: column;
+    }
+    .logic_fac_title.facility_box h3 {
+        font-size: 55px;
+    }
+    .logic_fac_shape_1 img {
+        width: 313px; 
+    }
+    .facility_box.token_fac_box h3 { 
+        font-size: 38px; 
     }
     .presale_shape_facility_2 img {
         width: 589px;
@@ -226,8 +264,37 @@
     .banner { 
         width: 100%; 
     }
+    .facility_box { 
+        padding: 22px; 
+    }
+    .income_area.logic_income_area {
+        margin-bottom: 200px;
+    }
+    .logic_fac_shape_1 img {
+        width: 255px;
+        top: -37px;
+    }
     .banner.banner_presale p {
         margin-bottom: 10px;
+    }
+    .logic_fac_title.facility_box h3 {
+        font-size: 41px;
+    }
+    .facility_area.tokenomics_fac_area {
+        margin-bottom: 203px;
+    }
+    .token_fac_shape_3 img {
+        width: 203px;
+        bottom: -186px;
+    }
+    .token_fac_shape_1 img {
+        width: 276px;
+        top: -162px;
+        left: 59px;
+    }
+    .token_fac_shape_2 img {
+        width: 145px;
+        top: 12px;
     }
     .presale_income_area {
         margin: 0 0 230px 0; 
@@ -338,6 +405,41 @@
         font-size: 14px;
         line-height: 22px;
     }
+    .income_area.logic_income_area { 
+        margin-top: 0;
+    }
+    .logic_fac_shape_1 img {
+        width: 227px;
+        top: -37px;
+    }
+    .logic_income_shape_1 img {
+        width: 192px;
+        bottom: -152px;
+    }
+    .logic_fac_title.facility_box h3 {
+        font-size: 31px;
+        line-height: 34px;
+    }
+    .token_fac_shape_1 img {
+        width: 141px;
+        top: -82px;
+        left: 59px;
+    }
+    .btn_2 { 
+        font-size: 14px; 
+    }
+    .facility_box.token_fac_box h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .token_fac_shape_2 img {
+        width: 127px;
+        top: 36px;
+    }
+    .token_fac_shape_3 img {
+        width: 165px;
+        bottom: -150px;
+    }
     .facilit_title img {
         width: 153px;
         top: -62px; 
@@ -383,5 +485,9 @@
     }
     .income_left h3 {
         font-size: 31px;
+    }
+    .logic_fac_shape_1 img {
+        width: 184px;
+        top: -4px;
     }
 }

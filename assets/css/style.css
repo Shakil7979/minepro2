@@ -695,6 +695,61 @@ ul li a,a{
 
 /*======== Token End Page  ==========*/
 
+/*======== Logic Start Page  ==========*/
+
+.logic_fac_title h3 {
+	color: #fff;
+	width: 77%;
+}
+
+.logic_fac_title{
+	position: relative;
+}
+
+.logic_fac_shape_1 img {
+	width: 534px;
+	position: absolute;
+	top: -113px;
+	right: -26px;
+	z-index: 9;
+}
+
+.facility_box.logic_fac_title span {
+	color: #FCFF8B;
+}
+
+.facility_box.logic_fac_title {
+	margin-bottom: 74px;
+}
+
+.logic_income_shape_1 img {
+	width: 537px;
+	position: absolute;
+	bottom: 0;
+}
+
+.logic_income_area{
+	position: relative;
+}
+
+.logic_income_shape_1 img {
+	width: 537px;
+	position: absolute;
+	bottom: -398px;
+	left: 0;
+}
+
+.logic_income_shape_2 img {
+	width: 742px;
+	position: absolute;
+	bottom: -183px;
+	left: 0;
+	z-index: -1;
+}
+
+
+/*======== Logic End Page  ==========*/
+
 
 
 
